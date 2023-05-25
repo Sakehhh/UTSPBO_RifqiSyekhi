@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="UTS_PBO">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/UTS_PBO.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
