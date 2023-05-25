@@ -1,0 +1,46 @@
+Anime
+
+Enkapsulasi: Konsep enkapsulasi digunakan dalam kelas "Anime" dengan mendeklarasikan atribut "judul" dan "author" sebagai variabel privat (private).
+Akses ke variabel-variabel ini hanya dapat dilakukan melalui metode-metode yang telah disediakan, yaitu melalui constructor dan metode "tampilAnime()".
+
+Full metal
+
+1. Enkapsulasi: Konsep enkapsulasi juga digunakan dalam kelas "FullmetalAlchemist". Atribut "studio" dan "status" dideklarasikan sebagai variabel privat (private),
+Melalui constructor, nilai-nilai atribut ini dapat diatur, dan melalui metode "tampilAnime()" yang di-override, nilai-nilai atribut ini dapat ditampilkan.
+
+2. Pewarisan (Inheritance): Kelas "FullmetalAlchemist" merupakan subkelas dari kelas "Anime" (dinyatakan dengan pernyataan "extends Anime"). 
+Dengan pewarisan ini, kelas "FullmetalAlchemist" mewarisi atribut dan metode dari kelas "Anime", 
+sehingga dapat mengakses dan menggunakan metode "tampilAnime()" dari kelas induknya.
+
+3. Polimorfisme: Terdapat polimorfisme dalam program ini melalui overriding metode "tampilAnime()". 
+Metode ini diwarisi dari kelas "Anime" dan di-override di kelas "FullmetalAlchemist" untuk menambahkan informasi spesifik tentang atribut "studio" dan 
+"status" dari anime Fullmetal Alchemist. Dalam konteks ini, objek kelas "FullmetalAlchemist" dapat dianggap sebagai objek kelas "Anime" 
+yang juga memiliki implementasi khusus untuk metode "tampilAnime()".
+
+Kaguya Sama
+
+1. Enkapsulasi: Konsep enkapsulasi juga digunakan dalam kelas "KaguyasamaWaKokurasetai".
+Atribut "studio" dan "status" dideklarasikan sebagai variabel privat (private), dan akses ke variabel-variabel ini hanya dapat dilakukan melalui metode-metode yang telah disediakan. 
+Melalui constructor, nilai-nilai atribut ini dapat diatur, dan melalui metode "tampilAnime()" yang di-override, nilai-nilai atribut ini dapat ditampilkan.
+
+2. Pewarisan (Inheritance): Kelas "KaguyasamaWaKokurasetai" juga merupakan subkelas dari kelas "Anime" (dinyatakan dengan pernyataan "extends Anime"). 
+Dengan pewarisan ini, kelas "KaguyasamaWaKokurasetai" mewarisi atribut dan metode dari kelas "Anime", 
+sehingga dapat mengakses dan menggunakan metode "tampilAnime()" dari kelas induknya.
+
+3. Polimorfisme: Terdapat polimorfisme dalam program ini melalui overriding metode "tampilAnime()". 
+Metode ini diwarisi dari kelas "Anime" dan di-override di kelas "KaguyasamaWaKokurasetai" untuk menambahkan informasi spesifik 
+tentang atribut "studio" dan "status" dari anime Kaguya-sama wa Kokurasetai. Dalam konteks ini, objek kelas "KaguyasamaWaKokurasetai" dapat dianggap 
+sebagai objek kelas "Anime" yang juga memiliki implementasi khusus untuk metode "tampilAnime()".
+
+One Piece
+
+1. Enkapsulasi: Konsep enkapsulasi juga digunakan dalam kelas "OnePiece". Atribut "studio" dan "status" dideklarasikan sebagai variabel privat (private),
+dan akses ke variabel-variabel ini hanya dapat dilakukan melalui metode-metode yang telah disediakan. Melalui constructor, nilai-nilai atribut ini dapat diatur,
+dan melalui metode "tampilAnime()" yang di-override, nilai-nilai atribut ini dapat ditampilkan.
+
+2. Pewarisan (Inheritance): Kelas "OnePiece" juga merupakan subkelas dari kelas "Anime" (dinyatakan dengan pernyataan "extends Anime").
+Dengan pewarisan ini, kelas "OnePiece" mewarisi atribut dan metode dari kelas "Anime", sehingga dapat mengakses dan menggunakan metode "tampilAnime()" dari kelas induknya.
+
+3. Polimorfisme: Terdapat polimorfisme dalam program ini melalui overriding metode "tampilAnime()". Metode ini diwarisi dari kelas "Anime" dan 
+di-override di kelas "OnePiece" untuk menambahkan informasi spesifik tentang atribut "studio" dan "status" dari anime One Piece. Dalam konteks ini, objek kelas "OnePiece"
+ dapat dianggap sebagai objek kelas "Anime" yang juga memiliki implementasi khusus untuk metode "tampilAnime()".
